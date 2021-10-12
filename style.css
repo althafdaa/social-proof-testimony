@@ -182,13 +182,12 @@ main .proof3 {
   }
 
   header .star-rating {
-    margin: 25px auto;
     width: 100%;
   }
 
   header .card-reviews {
-    margin-left: 0px;
     text-align: center;
+    margin-left: 0px;
   }
 
   header .reviews {
@@ -208,7 +207,9 @@ main .proof3 {
   }
 
   header .card-reviews span {
+    text-align: center;
     display: block;
+    margin-left: 0px;
   }
 
   main {
