@@ -100,9 +100,20 @@ main .card-proof {
   box-sizing: border-box;
   background: hsl(300, 43%, 22%);
   padding: 20px 30px;
-  margin: 0px 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 5px 0px black;
+}
+
+main .proof1 {
+  margin-right: 10px;
+}
+
+main .proof2 {
+  margin: 0px 10px;
+}
+
+main .proof3 {
+  margin-left: 10px;
 }
 
 .card-holder {
@@ -135,6 +146,14 @@ main .card-holder img {
 .card-proof p {
   font-size: 0.9em;
   line-height: 1.8em;
+}
+
+main .proof2 {
+  transform: translateY(20px);
+}
+
+main .proof3 {
+  transform: translateY(40px);
 }
 
 /* responsiveness */
@@ -199,5 +218,13 @@ main .card-holder img {
 
   main .card-proof {
     margin: 20px auto;
+  }
+
+  main .proof2 {
+    transform: translateY(0);
+  }
+
+  main .proof3 {
+    transform: translateY(0);
   }
 }
